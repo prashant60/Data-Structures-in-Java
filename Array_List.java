@@ -5,8 +5,8 @@ public class Array_List {
 		
 		//int simple_array[] = new int[5];	// Fixed array of size 5.
 		
-		ArrayList<Integer> myList = new ArrayList<Integer>(5);	// 5 is the size of array we give initially this can 
-																// be changed as new value is entered in the list.
+		ArrayList<Integer> myList = new ArrayList<Integer>(5);		// 5 is the size of array we give initially this can 
+										// be changed as new value is entered in the list.
 		
 		// ******* Adding new elements in array **********
 		myList.add(1);
@@ -31,8 +31,8 @@ public class Array_List {
 		System.out.println();
 		System.out.println("**** print size of array ****");
 		
-		System.out.println("Size = "+myList.size());		// Size here indicates the initial size of array list
-															// i.e. the no of elements in the list.
+		System.out.println("Size = "+myList.size());			// Size here indicates the initial size of array list
+										// i.e. the no of elements in the list.
 	
 		// ********** remove element from array at any index **************		
 		System.out.println();
